@@ -1,4 +1,3 @@
-# Responsive Website (Task 4 - Internship)
 
 ## 📌 Objective
 Convert a desktop-only web page into a **mobile-friendly responsive design** using **CSS Media Queries**.
