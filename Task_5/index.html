@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elevate Labs</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #333;
+            background: #fdfdfd;
+        }
+
+
+        header {
+            background: #0a3d62;
+            color: #fff;
+            padding: 20px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        header h1 {
+            font-size: 1.6rem;
+        }
+
+        nav a {
+            color: #fff;
+            margin: 0 12px;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        nav a:hover {
+            color: #f8c291;
+        }
+
+
+        .hero {
+            background: #60a3bc;
+            color: #fff;
+            text-align: center;
+            padding: 80px 20px;
+        }
+
+        .hero h2 {
+            font-size: 2.3rem;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            font-size: 1.1rem;
+        }
+
+
+        section {
+            padding: 60px 30px;
+            max-width: 1100px;
+            margin: auto;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #0a3d62;
+        }
+
+
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 25px;
+        }
+
+        .card {
+            background: #f4f6f7;
+            padding: 25px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+            transition: transform 0.3s, background 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-6px);
+            background: #dff9fb;
+        }
+
+        .card h3 {
+            color: #60a3bc;
+            margin-bottom: 10px;
+        }
+
+        
+        .about {
+            background: #f0f3f4;
+            border-radius: 10px;
+            padding: 40px;
+            text-align: center;
+        }
+
+       
+        .contact {
+            background: #0a3d62;
+            color: #fff;
+            border-radius: 10px;
+            text-align: center;
+            padding: 40px;
+        }
+
+        .contact h2 {
+            color: #f8c291;
+        }
+
+        .contact a {
+            color: #f8c291;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+       
+        footer {
+            background: #222;
+            color: #aaa;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+
+<body>
+    
+    <header>
+        <h1>Elevate Labs</h1>
+        <nav>
+            <a href="#services">Services</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    
+    <section class="hero">
+        <h2>Innovating Ideas, Elevating Businesses</h2>
+        <p>We create digital solutions that empower businesses to grow and succeed.</p>
+    </section>
+
+   
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="services">
+            <div class="card">
+                <h3> Web Development</h3>
+                <p>Modern, responsive websites designed for performance and style.</p>
+            </div>
+            <div class="card">
+
+                <h3> Mobile Apps</h3>
+                <p>Intuitive Android & iOS apps tailored to your business needs.</p>
+            </div>
+            <div class="card">
+                <h3> Cloud Solutions</h3>
+                <p>Secure and scalable cloud deployment for future-ready businesses.</p>
+            </div>
+        </div>
+    </section>
+
+   
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>
+            At <b>Elevate Labs</b>, our mission is to combine creativity and technology
+            to deliver impactful solutions. With a commitment to quality and innovation,
+            we help companies transform digitally and achieve new heights of success.
+        </p>
+    </section>
+
+  
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <p>Email: <a href="mailto:info@elevatelabs.com">info@elevatelabs.com</a></p>
+        <p>Phone: +910000000000</p>
+    </section>
+
+    
+    <footer>
+        <p>&copy; 2025 Elevate Labs. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
